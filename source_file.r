@@ -1,3 +1,4 @@
+##Source file
 ## 1. Set-up
 #Set working directory ("this.dir") to the location of these files on your computer
 rm(list=ls()) # remove any objects currently in your workspace
