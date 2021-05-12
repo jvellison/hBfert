@@ -76,7 +76,7 @@ axis(side = 1, at = which(comm.ind.score[ind] == 0), label = (namef.score[ind])[
 axis(side = 1, at = which(comm.ind.score[ind] == 1), label = (namef.score[ind])[which(comm.ind.score[ind] == 1)], las=2, col.axis = 1, font = 2)
 dev.off()
 
-#Save plot of average LogS scores for Model hB for all countries (see Figure 6)
+#Save plot of average LogS scores for Model hB for all countries (see Figure 7)
 png(file=paste(forecastFile, "/LogS_plot.png", sep = ""), width = 1000, height = 500, family = "Calibri", res = 100)
 ind <- order(LogShBavg, decreasing = T)
 par(mfrow = c(1, 1), mar = c(8, 4, 1, 1), family = "Calibri")
